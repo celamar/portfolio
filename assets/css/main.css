@@ -1,4 +1,11 @@
 
+body {
+
+  background: url(../img/615.jpg)  no-repeat fixed; /* pour ajuster l'image car decalage pour taille de container */
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */         
+  text-align: center;
+}
 
 
 

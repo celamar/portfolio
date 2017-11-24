@@ -1,8 +1,9 @@
-
+/* colors
+ #dddfd4 #fae596 #3fb0ac #173e43 */
 
 body {
 
-  background: url(../img/vectorFond.jpg)  no-repeat fixed; /* pour ajuster l'image car decalage pour taille de container */
+  background: url(../img/6.jpg)  no-repeat fixed; /* pour ajuster l'image car decalage pour taille de container */
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */         
   text-align: center;
@@ -12,8 +13,8 @@ body {
 
 
 /*---------------Barre de navigation---------------*/
-.navbar {                                                   
-    background-color: #474A48; 
+.navbar{                                                   
+    background-color: #252839;
 }
 
 
@@ -23,80 +24,24 @@ body {
 }
 
 
-/*---------------hexagone---------------*/
 
+/*--------grille de hexagonos como las abejas---------- */
 
-/* hexagonos apartir de paralelogramo */
-
-/*
-.paralleRight{ 
--webkit-clip-path: polygon(0 33%, 50% 0, 50% 50%, 0 78%);
-clip-path: polygon(0 33%, 50% 0, 50% 50%, 0 78%);
-	background-color: #82D2F8;
-	width: 20em;
-	height: 20em;
- }
-
-
-.paralleLeft{ 
--webkit-clip-path: polygon(100% 33%, 100% 75%, 50% 50%, 50% 0);
-clip-path: polygon(100% 33%, 100% 75%, 50% 50%, 50% 0);
-	background-color: #F6F169;
-    width: 20em;
-    height: 20em;
- }
-
-.paralleBottom{ 
--webkit-clip-path: polygon(50% 50%, 100% 75%, 50% 100%, 0 78%);
-clip-path: polygon(50% 50%, 100% 75%, 50% 100%, 0 78%);
-	background-color: #C36670;
-    width: 20em;
-    height: 20em;
- }
-
-
-#gride {
-    position: relative;
-    width: 60%;
-    margin: 0 auto;
-    padding: 0; 
-}
-
-.cleare:after {
-    content: "";
-    display: block;
-    clear: both;
+.containerBee {
+  padding-top: 120px;
+  padding-bottom: 90px;
 }
 
 
-#gride li {
-    list-style-type: none;
-    position: relative;
-    float: left;
-    background: #fd005f;
-}
 
 
-#gride li  {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #fdbf00;
-
-}
-*/
-
-
-
-/*grille de hexagonos como las abejas */
 
 #grid {
     position: relative;
     width: 60%;
     margin: 0 auto;
-    padding: 0; /* Clears unordered list default of 40px */
+    padding: 0; 
+
 }
 
 .clear:after {
@@ -120,19 +65,56 @@ clip-path: polygon(50% 50%, 100% 75%, 50% 100%, 0 78%);
 }
 
 
+
 #grid li .hexagon {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: #CBD1C9; /*color importante */
+    /*color importante */
     -o-transform: skewY(-30deg) rotate(60deg);
     -moz-transform: skewY(-30deg) rotate(60deg);
     -webkit-transform: skewY(-30deg) rotate(60deg);
     -ms-transform: skewY(-30deg) rotate(60deg);
     transform: skewY(-30deg) rotate(60deg);
+    /*background-image: url('lapin.jpeg');
+     background-position: center; 
+      background-repeat: no-repeat;
+      background-size: cover;*/
+
 }
+
+.color1{
+ background: #677077;
+}
+
+.color2{
+ background: #f2b632;
+ opacity: 0.7;
+}
+
+.color3{
+ background: #b5b5b7;
+ opacity: 0.7;
+}
+
+.color4{
+ background: #f2b632;
+ opacity: 0.7;
+}
+
+.color5{
+ background: #b5b5b7;
+ opacity: 0.7;
+}
+
+
+.color6{
+ background: #677077;
+ opacity: 0.7;
+}
+
 
 
 
@@ -148,7 +130,7 @@ clip-path: polygon(50% 50%, 100% 75%, 50% 100%, 0 78%);
     -ms-transform: rotate(-60deg) skewY(30deg);
     transform: rotate(-60deg) skewY(30deg);
     overflow: hidden;
-	visibility: hidden;
+	  visibility: hidden;
 }
 
 #grid li * {
@@ -171,7 +153,55 @@ clip-path: polygon(50% 50%, 100% 75%, 50% 100%, 0 78%);
     transform: translateX(50%) rotate(-60deg) skewY(30deg);
 }
 
-#grid:hover{
-    background-color: "red";
+
+/* Services */
+
+.services {
+  padding: 50px 0;
 }
 
+
+bg-primary
+.service-item {
+  margin-bottom: 30px;
+}
+
+.bg-info {
+ background-color: #3fb0ac;
+}
+
+
+
+/* Portfolio */
+
+.portfolio {
+  padding: 50px 0;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.img-portfolio {
+  margin: 0 auto;
+}
+
+.img-portfolio:hover {
+  opacity: .8;
+}
+
+
+/* Footer */
+
+footer {
+  padding: 100px 0;
+}
+
+#to-top {
+  font-size: 1em;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  display: none;
+  padding: 15px 20px;
+}
