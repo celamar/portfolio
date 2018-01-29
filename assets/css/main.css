@@ -3,29 +3,38 @@
 
 body {
 
-  background: url(../img/6.jpg)  no-repeat fixed; /* pour ajuster l'image car decalage pour taille de container */
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */         
+  background: url(../img/6.jpg)  repeat fixed; /* pour ajuster l'image car decalage pour taille de container */
+  -webkit-background-size: repeat; /* pour anciens Chrome et Safari */
+  background-size: repeat; /* version standardisée */         
   text-align: center;
 }
 
-a {
-  color: #9214BF;
-}
+
 
 /*---------------Barre de navigation---------------*/
-.navbar{                                                   
-    background-color: #677077;
-    font-color: #f2b632;
+
+
+.navbar-custom {
+    color: #f2b632;
+    background-color: #1F1E1D;
 }
 
+.nav-link {
+  color: #f2b632;
+}
+
+.nav-link:hover {
+  color: #f1F1F1;
+}
 
 /*---------------container---------------*/
 .refCont {
 	padding-top: 120px;
 }
 
-
+.titleHover:hover {
+  color: #f2b632;
+}
 
 /*--------grille de hexagonos como las abejas---------- */
 
@@ -114,7 +123,7 @@ a {
 
 .color6{
  background: #677077;
- opacity: 0.7;
+ opacity: 1;
 }
 
 
@@ -162,6 +171,10 @@ a {
   padding: 50px 0;
 }
 
+.section {
+  padding-top: 100px;
+  padding-bottom: 60px;
+} 
 
 
 /* Portfolio */
@@ -188,31 +201,16 @@ a {
 footer {
   padding: 100px 0;
 }
-/*
-#to-top {
-  font-size: 1em;
-  position: fixed;
-  right: 5px;
-  bottom: 5px;
-  display: none;
-  padding: 15px 20px;
+
+
+.fa-linkedin:hover{
+  background: #f2b632;
 }
 
-*/
+.fa-github-square:hover{
+  background: #f2b632;
+}
 
-
-  .btn-linkedin {
-    background: #0E76A8;
-    border-radius: 0;
-    color: #fff;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #084461;
-  }
-  .btn-linkedin:link, .btn-linkedin:visited {
-    color: #fff;
-  }
-  .btn-linkedin:active, .btn-linkedin:hover {
-    background: #084461;
-    color: #fff;
-  }
+.fa-twitter-square:hover{
+  background: #f2b632;
+}

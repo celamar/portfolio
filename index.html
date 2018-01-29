@@ -7,8 +7,8 @@
 	<!-- css principale -->
 	<link href="assets/css/main.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 
 	<meta charset="utf-8">
 	
@@ -16,22 +16,24 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg  fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg  fixed-top navbar-custom" id="mainNav">
   <div class="container">
-    <H1 class="navbar-brand js-scroll-trigger" href="">CLAUDIA MENDOZA</H1>
+    <H1 class="navbar-brand" href="">CLAUDIA MENDOZA</H1>
+<!--
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu
     </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
+-->
+    <div class="collapse navbar-collapse"  id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">A PROPOS</a>
+          <a class="nav-link " href="#about">A PROPOS</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#portfolio">RÉALISATIONS</a>
+          <a class="nav-link" href="#portfolio">RÉALISATIONS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a>
+          <a class="nav-link" href="#contact">CONTACT</a>
         </li>
       </ul>
     </div>
@@ -68,11 +70,11 @@
 
     <!-- about -->
     <section id="about" class="bg-secondary text-white">
-      <div class="container">
+      <div class="container section">
         <div class="row text-center">
           <div class="col-lg-10 mx-auto" href="#about">
-            <h2>A PROPOS </h2>
-
+            <h2 class="titleHover">A PROPOS </h2>
+            <br>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque nibh quam, vel rutrum erat blandit placerat. Nunc eu gravida massa. Fusce pellentesque metus arcu, id ullamcorper nibh pretium et. Suspendisse accumsan eget nisl sit amet accumsan. Vivamus eu quam eu ligula ullamcorper auctor. Proin nec fermentum arcu, vitae ornare nulla. Quisque in dui ut nibh vestibulum vulputate. Etiam dignissim erat in ante ultricies, id laoreet est viverra. Quisque dolor urna, sagittis vel rhoncus vel, auctor iaculis magna.</p>
 
           </div>
@@ -87,8 +89,8 @@
     <section id="portfolio" class="portfolio">
       <div class="container">
         <div class="row">
-          <div class="col-lg-10 mx-auto text-center" href="#portfolio">
-            <h2>RÉALISATIONS</h2>
+          <div class="col-lg-10 mx-auto text-center section" href="#portfolio">
+            <h2 class="titleHover">RÉALISATIONS</h2>
             <hr class="small">
             <div class="row">
               <div class="col-md-6">
@@ -133,29 +135,27 @@
 
 
     <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          
-        </div>
-      </div>
-  </footer>
 
-
-    <section id="contact" class="bg-secondary text-white">
-      <div class="container">
+    <section id="footer" class="bg-secondary text-white" >
+      <div class="container section">
         <div class="row text-center">
           <div class="col-lg-10 mx-auto" href="#contact">
-            <h2>CONTACT</h2>
-            <a href="#" title="LinkedIn" class="btn btn-linkedin btn-lg"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            <h2 class="titleHover" >CONTACT</h2>
 
-            </a>
+            <i class="fab fa-linkedin fa-4x"></i>
+            <i class="fab fa-github-square fa-4x"></i>
+            <i class="fab fa-twitter-square fa-4x"></i>
           </div>
+
+
           <!-- /.col-lg-10 -->
         </div>
         <!-- /.row -->
+
       </div>
       <!-- /.container -->
+      <p>&copy; Claudia Mendoza<p>
+      <p>claudiamendoza10@gmail.com</p>
     </section>
 
     
